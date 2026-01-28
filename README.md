@@ -41,7 +41,7 @@ Firstly, we will need to connect to VM1 using Remote Desktop. If you are a Windo
 <img src="https://imgur.com/zwyr25D.png" height="50%" width="50%" alt="Download Wireshark"/>
 </p>
 <p>
-After logging in to VM1, visit the [<Wireshark website>](<https://www.wireshark.org/download.html>) and download the latest stable version of the Wireshark installer for Windows.
+After logging in to VM1, visit the <a href="https://www.wireshark.org/download.html">Wireshark website</a> and download the latest stable version of the Wireshark installer for Windows.
 </p>
 <br />
 

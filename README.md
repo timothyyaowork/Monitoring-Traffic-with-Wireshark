@@ -27,10 +27,10 @@ This is a tutorial that outlines the use of the open-source network protocol ana
 
 <h3>Connect to VM1 with Remote Desktop</h3>
 <p>
-Firstly, we will need to connect to VM1 using Remote Desktop. If you are a Windows User, you will have the Remote Desktop Connection installed by default. Otherwise, you will have to download a remote desktop application. You can connect to VM1 by inputting the machine's public IP into the "computer" field. For my virtual machine, it was (20.81.160.69). You can then log in to the machine using the credentials you assigned to it.</p>
-<p>
 <img src="https://imgur.com/ai3vW4J.png" height="50%" width="50%" alt="Remote Desktop Connection"/>
 </p>
+<p>
+Firstly, we will need to connect to VM1 using Remote Desktop. If you are a Windows User, you will have the Remote Desktop Connection installed by default. Otherwise, you will have to download a remote desktop application. You can connect to VM1 by inputting the machine's public IP into the "computer" field. For my virtual machine, it was (20.81.160.69). You can then log in to the machine using the credentials you assigned to it.</p>
 <p>
 <img src="https://imgur.com/oapyYUZ.png" height="50%" width="50%" alt="VM1"/>
 </p>

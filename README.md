@@ -66,7 +66,7 @@ To observe any specific type of traffic, we first have to filter out any miscell
 <img src="https://imgur.com/7Tnv4E0.png" height="50%" width="50%" alt="icmp filter"/>
 </p>
 <p>
-After applying the filter, we will then open PowerShell and use the ping command to contact a network entity with a reachable IP address, this can be something such as a web domain or another computer. In this case, we will be contacting VM2, this can be done by pinging VM2's private IP, which in this case is (172.16.1.4).</p>
+After applying the filter, we will then open PowerShell and use the ping command to contact a network entity with a reachable IP address, this can be something such as a web domain or another computer. In this case, we will be contacting VM2, this can be done by pinging VM2's private IP, which in this case is (172.16.1.4). In this case, the full command was "ping 172.16.1.4".</p>
 <p>
 <img src="https://imgur.com/uaLNFo8.png" height="50%" width="50%" alt="ping VM2"/>
 </p>
@@ -76,8 +76,19 @@ After pinging VM2, we will find new entries in the feed that are labelled "reque
 <img src="https://imgur.com/wM8GsyS.png" height="50%" width="50%" alt="icmp packet"/>
 </p>
 
+<h3>Observe SSH Traffic</h3>
 <p>
-<img src=".png" height="50%" width="50%" alt="icmp filter"/>
+  To observe SSH traffic, we will first have to apply a new filter to hide the miscellaneous traffic from the feed. For SSH traffic, we can either input "ssh" or "tcp.port==22" since SSH uses tcp port 22.
+  After applying the filter, we will then use PowerShell to connect to VM2 using SSH. This can be done by using the command ssh followed by the username@machineIP. In this case, the full command was "ssh labuser@172.16.1.4". After inputting the command, you will have to input the contacted machine's password to complete the connection. Once you have successfully connected to the VM2, you will notice a new series of entries in the Wireshark feed. Like before with the ICMP packets, the tables will show information related to the packet frame, Ethernet, IP, and the packet data. Note how, unlike the data of the ICMP packet, the data of the SSH packet is unintelligible, this is because SSH sends packets with encryption.
+</p>
+<p>
+<img src="https://imgur.com/hy0j4iY.png" height="50%" width="50%" alt="SSH"/>
+</p>
+<p>
+  Also note how every new command you input in PowerShell whilst the SSH connection is active will create new entries in the feed, this will allow you to keep track of any SSH activity.
+</p>
+<p>
+<img src="https://imgur.com/hy0j4iY.png" height="50%" width="50%" alt="SSH"/>
 </p>
 
 <p>

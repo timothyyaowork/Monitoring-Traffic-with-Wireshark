@@ -140,5 +140,9 @@ Just like the DHCP packet, the tables show information related to the packet fra
   Finally, to observe RDP traffic, we need to apply a filter for RDP traffic to the Wireshark feed. This can be done by inputting "tcp.port==3389" since RDP runs on TCP port 3389. 
 </p>
 <img src="https://imgur.com/T3usweJ.png" height="50%" width="50%" alt="icmp filter"/>
+<p>
+  After applying the RDP filter, we will notice a large stream of entries in the Wireshark feed. This is because we are using RDP to connect to VM1, which is sending a constant stream of data between VM1 and the computer connecting to it.
+  The RDP packets' tables will have information on the packet frame, Ethernet, IP, the packet data, TCP(since RDP runs on a TCP port), and TLS.
+</p>
 
 <br />

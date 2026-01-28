@@ -9,18 +9,21 @@ This is a tutorial that outlines the installation and use of the open-source net
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Windows 10
+- Microsoft Remote Desktop
 - Wireshark
   
 <h2>Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Install Wireshark
+- Observe ICMP Traffic
+- Observe SSH Traffic
+- Observe DHCP Traffic
+- Observe DNS Traffic
+- Observe RDP Traffic
 
-<h2>Configuration Steps</h2>
+<h2>Project Steps</h2>
 
+<h3>Install Wireshark</h3>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>

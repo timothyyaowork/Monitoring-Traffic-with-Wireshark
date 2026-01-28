@@ -47,7 +47,7 @@ After logging in to VM1, visit the <a href="https://www.wireshark.org/download.h
 <img src="https://imgur.com/Szm4UFH.png" height="50%" width="50%" alt="npcap checked"/>
 </p>
 <p>
-Once you have installed Wireshark, open the application. You will notice a list of options for what stream Wireshark will operate on. Choose the stream that has activity showing, represented by the frequency lines. Usually, this will be Ethernet. In my case, I had Ethernet and Ethernet 2, both seemed to have the same activity, and I chose Ethernet 2. After selecting the stream, click the blue sharkfin icon to start capturing packets. When you do, you will notice a rapidly updating list appear on the top half of the window, along with 2 tables on the bottom half. The list is the stream of packets being captured by the application, whilst the two tables contain information about the currently selected packet.
+Once you have installed Wireshark, open the application. You will notice a list of options for what stream Wireshark will operate on. Choose the stream that has activity showing, represented by the frequency lines. Usually, this will be "Ethernet". In my case, I had Ethernet and Ethernet 2, both seemed to have the same activity, and I chose Ethernet 2. After selecting the stream, click the blue sharkfin icon to start capturing packets. When you do, you will notice a rapidly updating list appear on the top half of the window, along with 2 tables on the bottom half. The list is the stream of packets being captured by the application, whilst the two tables contain information about the currently selected packet.
 </p>
 <p>
 <img src="https://imgur.com/LSEmZrP.png" height="50%" width="50%" alt="starting wireshark"/>

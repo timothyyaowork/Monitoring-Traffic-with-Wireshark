@@ -3,12 +3,13 @@
 </p>
 
 <h1>Wireshark - Post-Install Configuration</h1>
-This is a tutorial that outlines the use of the open-source network protocol analyzer Wireshark to monitor network traffic.<br />
+This is a tutorial that outlines the use of the open-source network protocol analyzer Wireshark to monitor network traffic. For this tutorial, we will have 2 virtual machines on the same network already prepared, VM1 will be running on Windows 10, whilst VM2 will be running on Ubuntu.<br />
 
 <h2>Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Windows 10
+- Microsoft Azure (2 Virtual Machines/Computers)
+- Windows 10(VM1)
+- Ubuntu(VM2)
 - Remote Desktop Connection
 - Wireshark
   

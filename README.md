@@ -41,12 +41,12 @@ Firstly, we will need to connect to VM1 using Remote Desktop. If you are a Windo
 <img src="https://imgur.com/zwyr25D.png" height="50%" width="50%" alt="Download Wireshark"/>
 </p>
 <p>
-After logging in to VM1, visit the <a href="https://www.wireshark.org/download.html">Wireshark website</a> and download the latest stable version of the Wireshark installer for Windows.
+After logging in to VM1, visit the <a href="https://www.wireshark.org/download.html">Wireshark website</a> and download the latest stable version of the Wireshark installer for Windows. Once downloaded, activate the installer and go through the installation process. The default settings should be fine, but be sure that the "Install Npcap" option is checked, as it is required for capturing live network traffic.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Szm4UFH.png" height="50%" width="50%" alt="npcap checked"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

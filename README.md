@@ -16,7 +16,7 @@ This is a tutorial that outlines the use of the open-source network protocol ana
 <h2>Objectives</h2>
 
 - Connect to VM1 with Remote Desktop
-- Install Wireshark
+- Install and Set Up Wireshark
 - Observe ICMP Traffic
 - Observe SSH Traffic
 - Observe DHCP Traffic
@@ -36,18 +36,26 @@ Firstly, we will need to connect to VM1 using Remote Desktop. If you are a Windo
 </p>
 <br />
 
-<h3>Install Wireshark</h3>
+<h3>Install and Set Up Wireshark</h3>
 <p>
 <img src="https://imgur.com/zwyr25D.png" height="50%" width="50%" alt="Download Wireshark"/>
 </p>
 <p>
 After logging in to VM1, visit the <a href="https://www.wireshark.org/download.html">Wireshark website</a> and download the latest stable version of the Wireshark installer for Windows. Once downloaded, activate the installer and go through the installation process. The default settings should be fine, but be sure that the "Install Npcap" option is checked, as it is required for capturing live network traffic.
 </p>
-<br />
-
 <p>
 <img src="https://imgur.com/Szm4UFH.png" height="50%" width="50%" alt="npcap checked"/>
 </p>
+<p>
+Once you have installed Wireshark, open the application. You will notice a list of options for what stream Wireshark will operate on. Choose the stream that has activity showing, represented by the frequency lines. Usually, this will be Ethernet. In my case, I had Ethernet and Ethernet 2, both seemed to have the same activity, and I chose Ethernet 2.
+</p>
+<p>
+<img src="https://imgur.com/LSEmZrP.png" height="50%" width="50%" alt="npcap checked"/>
+</p>
+
+<br />
+
+<h3>Observe ICMP Traffic</h3>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>

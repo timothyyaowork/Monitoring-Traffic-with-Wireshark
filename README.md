@@ -3,7 +3,7 @@
 </p>
 
 <h1>Wireshark - Post-Install Configuration</h1>
-This is a tutorial that outlines the use of the open-source network protocol analyzer Wireshark to monitor network traffic. For this tutorial, we will have 2 virtual machines on the same network already prepared, VM1 will be running on Windows 10, whilst VM2 will be running on Ubuntu.<br />
+This is a tutorial that outlines the use of the open-source network protocol analyzer Wireshark to monitor network traffic. For this tutorial, we will have 2 freshly prepared virtual machines on the same network, VM1 will be running on Windows 10, whilst VM2 will be running on Ubuntu.<br />
 
 <h2>Technologies Used</h2>
 
@@ -27,10 +27,13 @@ This is a tutorial that outlines the use of the open-source network protocol ana
 
 <h3>Connect to VM1 with Remote Desktop</h3>
 <p>
+Firstly, we will need to connect to VM1 using Remote Desktop. If you are a Windows User, you will have the Remote Desktop Connection installed by default. Otherwise, you will have to download a remote desktop application. You can connect to VM1 by inputting the machine's public IP into the "computer" field. For my virtual machine, it was (20.81.160.69). You can then log in to the machine using the credentials you assigned to it.</p>
+<p>
 <img src="https://imgur.com/ai3vW4J.png" height="50%" width="50%" alt="Remote Desktop Connection"/>
 </p>
 <p>
-Firstly, we will need to connect to VM1 using Remote Desktop. If you are a Windows User, you will have the Remote Desktop Connection installed by default. Otherwise, you will have to download a remote desktop application. You can connect to VM1 by inputting the machine's public IP into the "computer" field, for my virtual machine, it was (20.81.160.69). You can then log in to the machine using the credentials you assigned to it.</p>
+<img src="https://imgur.com/oapyYUZ.png" height="50%" width="50%" alt="Remote Desktop Connection"/>
+</p>
 <br />
 
 <p>

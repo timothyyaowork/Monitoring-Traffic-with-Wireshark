@@ -3,7 +3,7 @@
 </p>
 
 <h1>Wireshark - Post-Install Configuration</h1>
-This is a tutorial that outlines the installation and use of the open-source network protocol analyzer Wireshark.<br />
+This is a tutorial that outlines the installation and use of the open-source network protocol analyzer Wireshark to monitor network traffic.<br />
 
 <h2>Technologies Used</h2>
 

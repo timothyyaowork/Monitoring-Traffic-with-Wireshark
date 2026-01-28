@@ -47,7 +47,7 @@ After logging in to VM1, visit the <a href="https://www.wireshark.org/download.h
 <img src="https://imgur.com/Szm4UFH.png" height="50%" width="50%" alt="npcap checked"/>
 </p>
 <p>
-Once you have installed Wireshark, open the application. You will notice a list of options for what stream Wireshark will operate on. Choose the stream that has activity showing, represented by the frequency lines. Usually, this will be "Ethernet". In my case, I had Ethernet and Ethernet 2, both seemed to have the same activity, and I chose Ethernet 2. After selecting the stream, click the blue sharkfin icon to start capturing packets. When you do, you will notice a rapidly updating feed appear on the top half of the window, along with 2 tables on the bottom half. The feed is the stream of packets being captured by the application, whilst the two tables contain information about the currently selected packet.
+Once you have installed Wireshark, open the application. You will notice a list of options for what stream Wireshark will operate on. Choose the stream that has activity showing, represented by the frequency lines. Usually, this will be "Ethernet". In my case, I had Ethernet and Ethernet 2. Both seemed to have the same activity, and I chose Ethernet 2. After selecting the stream, click the blue sharkfin icon to start capturing packets. When you do, you will notice a rapidly updating feed appear on the top half of the window, along with 2 tables on the bottom half. The feed is the stream of packets being captured by the application, whilst the two tables contain information about the currently selected packet.
 </p>
 <p>
 <img src="https://imgur.com/LSEmZrP.png" height="50%" width="50%" alt="starting wireshark"/>
@@ -65,5 +65,28 @@ To observe any specific type of traffic, we first have to filter out any miscell
 <p>
 <img src="https://imgur.com/7Tnv4E0.png" height="50%" width="50%" alt="icmp filter"/>
 </p>
+<p>
+After applying the filter, we will then open PowerShell and use the ping command to contact a network entity with a reachable IP address, this can be something such as a web domain or another computer. In this case, we will be contacting VM2, this can be done by pinging VM2's private IP, which in this case is (172.16.1.4).</p>
+<p>
+<img src="https://imgur.com/uaLNFo8.png" height="50%" width="50%" alt="ping VM2"/>
+</p>
+<p>
+After pinging VM2, we will find new entries in the feed that are labelled "request" and "reply". In this case, the "request" packets are sent from VM1 to VM2, whilst the "reply" packets are sent from VM2 to VM1 in response to receiving a request packet. In the data tables, we can see various pieces of information such as the frame the packet was contained in, the Ethernet information of the machines involved(such as their MAC addresses), the IP information of the machines involved, and the data contained in the packet. In the case of ICMP, the data contained in the ICMP packet is "abcdefghijklmnopqrstuvwabcdefghi."</p>
+<p>
+<img src="https://imgur.com/wM8GsyS.png" height="50%" width="50%" alt="icmp packet"/>
+</p>
 
+<p>
+<img src=".png" height="50%" width="50%" alt="icmp filter"/>
+</p>
+
+<p>
+<img src="https://imgur.com/7Tnv4E0.png" height="50%" width="50%" alt="icmp filter"/>
+</p>
+<p>
+<img src="https://imgur.com/7Tnv4E0.png" height="50%" width="50%" alt="icmp filter"/>
+</p>
+<p>
+<img src="https://imgur.com/7Tnv4E0.png" height="50%" width="50%" alt="icmp filter"/>
+</p>
 <br />

@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://imgur.com/q1LyYzN" alt="Wireshark logo"/>
+<img src="https://i.imgur.com/q1LyYzN.png" alt="Wireshark logo"/>
 </p>
 
 <h1>Wireshark - Post-Install Configuration</h1>

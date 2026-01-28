@@ -14,6 +14,7 @@ This is a tutorial that outlines the use of the open-source network protocol ana
 - Wireshark
   
 <h2>Objectives</h2>
+
 - Connect to VM1 with Remote Desktop
 - Install Wireshark
 - Observe ICMP Traffic

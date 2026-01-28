@@ -90,7 +90,7 @@ After applying the filter, we will then use PowerShell to connect to VM2 using S
 <img src="https://imgur.com/TDlRa68.png" height="50%" width="50%" alt="SSH"/>
 </p>
 <p>
-Once you have successfully connected to the VM2, you will notice a new series of entries in the Wireshark feed. Like before with the ICMP packets, the tables will show information related to the packet frame, Ethernet, IP, and the packet data, with the addition of an "Transmission Control Protocol" field since SSH uses TCP. Note how, unlike the data of the ICMP packet, the data of the SSH packet is unintelligible. This is because SSH sends packets with encryption.
+Once you have successfully connected to the VM2, you will notice a new series of entries in the Wireshark feed. Like before with the ICMP packets, the tables will show information related to the packet frame, Ethernet, IP, and the packet data, with the addition of a "Transmission Control Protocol" field since SSH uses TCP. Note how, unlike the data of the ICMP packet, the data of the SSH packet is unintelligible. This is because SSH sends packets with encryption.
 </p>
 <p>
 <img src="https://imgur.com/LKheJQH.png" height="50%" width="50%" alt="SSH"/>
@@ -114,7 +114,7 @@ Once you have successfully connected to the VM2, you will notice a new series of
 <img src="https://imgur.com/NY3M7XV.png" height="50%" width="50%" alt="icmp filter"/>
 </p>
 <p>
-  After applying the filter, we will use PowerShell to initiate DHCP traffic. This can be done with the command "ipconfig /renew", which will refresh the network configuration, requesting a new IP lease from the DHCP server. 
+Like the ICMP packets, the tables will show information related to the packet frame, Ethernet, IP, and the packet data. But the DHCP packet has the additional "User Datagram Protocol" field since DHCP uses UDP. 
 </p>
 
 <p>

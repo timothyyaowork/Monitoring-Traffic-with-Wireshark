@@ -117,10 +117,24 @@ Once you have successfully connected to the VM2, you will notice a new series of
 Like the ICMP packets, the tables will show information related to the packet frame, Ethernet, IP, and the packet data. But the DHCP packet has the additional "User Datagram Protocol" field since DHCP uses UDP. 
 </p>
 
+<h3>Observe DNS Traffic</h3>
 <p>
-<img src="https://imgur.com/7Tnv4E0.png" height="50%" width="50%" alt="icmp filter"/>
+  Like previously, to observe DNS traffic, we have to apply a new filter for DNS traffic to the Wireshark feed. We can do this by inputting "dns" or "udp.port==53" since DNS runs on UDP port 53. 
 </p>
 <p>
-<img src="https://imgur.com/7Tnv4E0.png" height="50%" width="50%" alt="icmp filter"/>
+<img src="https://imgur.com/rqmFXxU.png" height="50%" width="50%" alt="icmp filter"/>
 </p>
+<p>
+To create DNS traffic, we will use PowerShell and the nslookup command on disney.com. This will send a request to the DNS server to find the IP address of the web domain.
+</p>
+<p>
+<img src="https://imgur.com/jUje7Y8.png" height="50%" width="50%" alt="icmp filter"/>
+</p>
+<p>
+After a series of queries, the command returns the information that disney.com has the IP of 130.211.198.204.
+Just like the DHCP packet, the tables show information related to the packet frame, Ethernet, IP, the packet data, and UDP, since DNS uses UDP.
+</p>
+
+<h3>Observe RDP Traffic</h3>
+
 <br />

@@ -9,7 +9,7 @@ This is a tutorial that outlines the installation and use of the open-source net
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Windows 10
-- Microsoft Remote Desktop
+- Remote Desktop Connection
 - Wireshark
   
 <h2>Objectives</h2>

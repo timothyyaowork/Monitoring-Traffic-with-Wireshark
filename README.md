@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://imgur.com/a/5IqxNmQ" alt="Wireshark logo"/>
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
@@ -8,8 +8,7 @@ This is a tutorial that outlines the installation and use of the open-source net
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+- Wireshark
 
 <h2>Operating Systems Used </h2>
 

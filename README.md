@@ -101,7 +101,11 @@ Once you have successfully connected to the VM2, you will notice a new series of
 
 <h3>Observe DHCP Traffic</h3>
 <p>
-<img src="https://imgur.com/hy0j4iY.png" height="50%" width="50%" alt="SSH"/>
+  Like before, to observe DHCP traffic, we must apply a DHCP filter to the Wireshark feed, we can do this by inputting "dhcp". 
+</p>
+
+<p>
+<img src="https://imgur.com/MIrRfeH.png" height="50%" width="50%" alt="SSH"/>
 </p>
 
 <p>

@@ -2,19 +2,16 @@
 <img src="https://imgur.com/a/5IqxNmQ" alt="Wireshark logo"/>
 </p>
 
-<h1>osTicket - Post-Install Configuration</h1>
+<h1>Wireshark - Post-Install Configuration</h1>
 This is a tutorial that outlines the installation and use of the open-source network protocol analyzer Wireshark.<br />
 
-<h2>Environments and Technologies Used</h2>
+<h2>Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
+- Windows 10
 - Wireshark
-
-<h2>Operating Systems Used </h2>
-
-- Windows 10</b> (21H2)
-
-<h2>Post-Install Configuration Objectives</h2>
+  
+<h2>Objectives</h2>
 
 - Item 1
 - Item 2

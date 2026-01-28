@@ -82,11 +82,12 @@ After pinging VM2, we will find new entries in the feed that are labelled "reque
   After applying the filter, we will then use PowerShell to connect to VM2 using SSH. This can be done by using the command ssh followed by the username@machineIP. In this case, the full command was "ssh labuser@172.16.1.4". After inputting the command, you will have to input the contacted machine's password to complete the connection. Once you have successfully connected to the VM2, you will notice a new series of entries in the Wireshark feed. Like before with the ICMP packets, the tables will show information related to the packet frame, Ethernet, IP, and the packet data. Note how, unlike the data of the ICMP packet, the data of the SSH packet is unintelligible, this is because SSH sends packets with encryption.
 </p>
 <p>
-<img src="https://imgur.com/hy0j4iY.png" height="50%" width="50%" alt="SSH"/>
+<img src="https://imgur.com/LKheJQH.png" height="50%" width="50%" alt="SSH"/>
 </p>
 <p>
   Also note how every new command you input in PowerShell whilst the SSH connection is active will create new entries in the feed, this will allow you to keep track of any SSH activity.
 </p>
+
 <p>
 <img src="https://imgur.com/hy0j4iY.png" height="50%" width="50%" alt="SSH"/>
 </p>
